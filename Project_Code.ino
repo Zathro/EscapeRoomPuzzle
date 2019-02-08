@@ -53,7 +53,6 @@ void loop() {
     sequenceNum++;
   }
   if (sequenceNum == 4) {
-   //Here is my issue im attempting to use the checkFunction to chek if the "data" is correct the data is the code enter into the array above
     checkFunction(data);
     if (lock == 1) {
       delay(100);
